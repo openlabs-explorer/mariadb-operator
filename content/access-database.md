@@ -36,7 +36,7 @@ To do so,
 **Step 3: Connect to the database using username db-user and password db-user.**
 
 ```execute
-mysql -h ##DNS.ip## -P 30685 -u db-user -pdb-user
+mysql -h {{ DNS.ip }} -P 30685 -u db-user -pdb-user
 ```
 
 **Step 4: Display the database list.**
@@ -54,7 +54,7 @@ exit
 **Step 6: Login as `root` user.**
 
 ```execute
-mysql -h ##DNS.ip## -P 30685 -u root -ppassword
+mysql -h {{ DNS.ip }} -P 30685 -u root -ppassword
 ```
 
 **Step 7: Create database ‘testdb’**
