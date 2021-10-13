@@ -1,5 +1,7 @@
 MariaDB Operator is a key technology for MariaDB cloud strategy that assists in creating MariaDB server and database easily by defining basic Custom Resource. This operator enables the customers to deploy MariaDB platform in a variety of database configurations in a Kubernetes environment. 
 
+You can try out our amazing stuff [here](https://openlabs-explorer-dev.mybluemix.net/explorer?g=https://github.com/openlabs-explorer/mariadb-operator).
+
 ### Features of MariaDB Operator:
 
 - Setup a MariaDB server with configured version.
