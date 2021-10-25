@@ -4,7 +4,7 @@ description: One of the most popular open source relational databases. It's made
 branding:
     logo: _images/logo.png
     banner: _images/banner.png
-    textColor: '#FFFFFF'
+    textColor: '#012748'
     header:
         link: https://mariadb.com/
         text: MariaDB
