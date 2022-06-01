@@ -33,11 +33,12 @@ environment:
         url: '{{ DNS.host }}'
         enabled: false
 config:
+    auth: ibm_id
     launchBtn:
-        buttonLabel: Launch
+        buttonLabel: Launch Lab
     execCmd : 
         autoExecute: false
-        buttonLabel: Execute Commands
+        buttonLabel: Install
 backend:
     service: k8s
 tileInfo:
